@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<!-- 
+
+created by cptpixel for free personal usage
+
+https://github.com/cptpixel/startpage
+
+New Tab Override extension for Firefox: https://addons.mozilla.org/ru/firefox/addon/new-tab-override/
+
+
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Tab</title>
+
+    <!-- Bootstrap CDN-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <style type=”text/css”> 
+    
+   
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="overflow:hidden; background: #D3D3D3">
+  <div class="container">
+<div class="header">
+</div>
+
+
+    <div class="row" style="padding-top: 20px;">
+      <div class="col-md-6">
+<div class="jumbotron" style="background: #EFFBF8; box-shadow: 0px 0px 4px 4px rgba(32,35,64,0.35) !important; ">
+<h1>Facebook</h1>
+<p class="lead">Opens up Facebook main page</p>
+<p><a class="btn btn-lg btn-primary" role="button" href="https://www.facebook.com">Open</a></p>
+</div>      
+      </div>
+      <div class="col-md-6">
+       
+<div class="jumbotron" style="background-color: #F5F6CE; box-shadow: 0px 0px 4px 4px rgba(32,35,64,0.35) !important;">
+<h1>Zabbix</h1>
+<p class="lead">Service monitoring tool</p>
+<p><a class="btn btn-lg btn-warning" role="button" href="http://yourzabbixlink">Check out</a></p>
+</div>          
+    </div>
+       <div class="col-md-12">
+         <div class="jumbotron" style="background: #E6E0F8; box-shadow: 0px 0px 4px 4px rgba(32,35,64,0.35) !important;">
+<h1><center>Search in known Universe</center></h1>  
+<br>
+            <script>
+//this needs to be tweaked
+function Gsitesearch(curobj){
+curobj.q.value=curobj.qfront.value
+}
+</script>
+<form class="search" action="https://google.com/search?" method="get" onSubmit="Gsitesearch(this)">
+<input name="q" type="hidden" />
+<div class = "row" style=" position: center;" >
+  <div class="col-md-2"></div>
+  <input name="qfront" class="form-control col-md-8 custom-search-input" type="search " required class="searchField" placeholder="ENGAGE THE INFORMATION STREAM" maxlength="50"/>
+  <div class="col-md-2"></div>
+<!-- <input type="submit" class="btn-primary col-md-1" value="ПОИСК" /> -->
+</form>
+
+           </div>
+          </div>  
+          <div class="row">
+      <div class="col-md-6">
+<div class="jumbotron" style="background: #F8E6E0; box-shadow: 0px 0px 4px 4px rgba(32,35,64,0.35) !important;">
+<h1>Mail</h1>
+<p class="lead">A Google mail</p>
+<p><a class="btn btn-lg btn-danger" role="button" href="https://mail.google.com/mail/u/0/">Go to</a></p>
+</div>      
+      </div>
+      <div class="col-md-6">
+       
+<div class="jumbotron" style="background: #E6F8E0; box-shadow: 0px 0px 4px 4px rgba(32,35,64,0.35) !important;">
+<h1>Your link</h1>
+<p class="lead">Your link here</p>
+<p><a class="btn btn-lg btn-success" role="button" href="https://example.com">Open</a></p>
+</div>          
+    </div>        
+      </div>
+    </div>
+<!--
+<div class="footer">
+<p>&copy; Пиксель</p>
+</div>
+</div>
+  -->
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
